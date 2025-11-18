@@ -1,0 +1,6 @@
+[build.env]
+passthrough = []
+
+[target.x86_64-unknown-linux-gnu]
+
+[target.aarch64-unknown-linux-gnu]

@@ -1,0 +1,47 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Source code
+*.php text eol=lf
+*.rs text eol=lf
+*.toml text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+
+# Scripts
+*.sh text eol=lf
+
+# Compiled binaries
+*.dylib binary
+*.so binary
+*.dll binary
+
+# Exclude all non-essential files from Composer package
+# Only src/ and composer.json will be included in distribution
+/.github export-ignore
+/rust export-ignore
+/cli export-ignore
+/tests export-ignore
+/benchmarks export-ignore
+/.phpunit.cache export-ignore
+/run.php export-ignore
+/build.sh export-ignore
+/.gitignore export-ignore
+/.gitattributes export-ignore
+/.editorconfig export-ignore
+/phpstan.neon export-ignore
+/phpunit.xml export-ignore
+/.phpcs.xml export-ignore
+/CONTRIBUTING.md export-ignore
+/SECURITY.md export-ignore
+/DEPLOYMENT.md export-ignore
+/PRODUCTION_READY.md export-ignore
+/README.md export-ignore
+/CHANGELOG.md export-ignore
+/LICENSE export-ignore
+/composer.lock export-ignore
+test_svg_bug.php export-ignore
+www_*.html export-ignore

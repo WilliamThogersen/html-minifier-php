@@ -1,0 +1,36 @@
+# Composer
+vendor/
+composer.lock
+
+# Rust build artifacts
+rust/target/
+rust/Cargo.lock
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Environment files
+.env
+.env.local
+
+# Benchmark results (keep index.json)
+benchmarks/*/
+benchmarks/SUMMARY.md
+
+# Test coverage
+coverage/
+.phpunit.result.cache

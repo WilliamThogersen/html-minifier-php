@@ -1,0 +1,11 @@
+# Clippy linting configuration for production-ready code
+msrv = "1.70.0"  # Minimum supported Rust version
+
+# Warn on common mistakes and potential bugs
+warn-on-all-wildcard-imports = true
+
+# Pedantic lints for production code
+cognitive-complexity-threshold = 30
+too-many-arguments-threshold = 8
+type-complexity-threshold = 500
+single-char-binding-names-threshold = 4
